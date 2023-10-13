@@ -1,0 +1,58 @@
+/* Previous CSS styles remain unchanged */
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     height: 100vh; 
+    width: 100vw;
+    
+}
+.movies-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100vw;
+    
+}
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 80vw;
+    margin-top: 1rem
+}
+
+.movie {
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #d8cfcf;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.movie img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+/* Add more styles for other properties as needed */
